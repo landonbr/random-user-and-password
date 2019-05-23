@@ -1,5 +1,5 @@
 # random-user-and-password
 
-<div style="width:100%;height:0;padding-bottom:67%;position:relative;"><iframe src="https://giphy.com/embed/KEYT2fJZpebvxOupUp" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/KEYT2fJZpebvxOupUp">via GIPHY</a></p>
+https://media.giphy.com/media/KEYT2fJZpebvxOupUp/200w.webp
 
 A few things i would like to improve on in writing the code if anyone could help. All I wanted to do was to create a random password without using multiple "pw[rand() %..." for each line. However,it only printed out one line of a password, so i stuck with this annoying method. Second, I wanted to convert the first character from the list of names from the file to lower case. I tried, but that didn't work either. I may have had to add sum additional functions in doing so, but I tried writing this quickly. 
