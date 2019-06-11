@@ -3,6 +3,17 @@
 #include <string>
 #include <fstream>
 #include <ctime>
+#include <cctype>
+
+
+void convert(std::string& s){
+
+    for(int i = 0; i<s.length(); i++){
+
+        s[i] = tolower(s[i]);
+    }
+
+}
 
 int main()
 { 
@@ -19,6 +30,8 @@ int main()
         
         fin >> names[i];
 
+        convert(names[i]);
+
         std::cout << "sending username: " << names[i] + std::to_string(rand()%100) << "@gmail.com" << " and"
         << " password: " << pw[rand() % pw.length()] << pw[rand() % pw.length()] << pw[rand() % pw.length()]
         << pw[rand() % pw.length()] << pw[rand() % pw.length()] << pw[rand() % pw.length()] << pw[rand() % pw.length()] << "\n";
@@ -28,3 +41,5 @@ int main()
     fin.close();
     return 0;
 }
+
+
